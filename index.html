@@ -44,6 +44,9 @@ a:hover{color:#111111}
 .ix-head>:nth-child(3),.ix-head>:nth-child(4){display:none}
 .ix .disp{overflow-wrap:anywhere}
 .gal{height:300px!important}
+.xp{grid-template-columns:minmax(0,1fr) auto!important;row-gap:6px!important}
+.xp>:first-child{grid-column:1/-1}
+.xp>:last-child{text-align:right}
 .mscroll{height:auto!important;align-items:flex-start}
 .mscroll>div{height:auto!important;width:84vw}
 .mscroll>div:has(video[style*="720 / 1280"]){width:62vw}
@@ -484,11 +487,11 @@ a:hover{color:#111111}
 <div>
 <h3 class="mono" style="margin: 0 0 12px; font-weight: 500">Experiencia</h3>
 <ul style="list-style: none; margin: 0; padding: 0; border-top: 1.5px solid #111111">
-<li style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">LUZU TV</span><span style="font-size: 15px">Diseñadora gráfica Sr</span><span class="mono">2026 — hoy</span></li>
-<li style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Krab-e</span><span style="font-size: 15px">Diseñadora gráfica Sr</span><span class="mono">2023 — 2025</span></li>
-<li style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">ABCOM</span><span style="font-size: 15px">Editora de video</span><span class="mono">2025</span></li>
-<li style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Monkslife</span><span style="font-size: 15px">Diseñadora gráfica · México</span><span class="mono">2020 — 2021</span></li>
-<li style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Freelance</span><span style="font-size: 15px">Diseñadora gráfica</span><span class="mono">2019 — 2022</span></li>
+<li class="xp" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">LUZU TV</span><span style="font-size: 15px">Diseñadora gráfica Sr</span><span class="mono">2026 — hoy</span></li>
+<li class="xp" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Krab-e</span><span style="font-size: 15px">Diseñadora gráfica Sr</span><span class="mono">2023 — 2025</span></li>
+<li class="xp" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">ABCOM</span><span style="font-size: 15px">Editora de video</span><span class="mono">2025</span></li>
+<li class="xp" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Monkslife</span><span style="font-size: 15px">Diseñadora gráfica · México</span><span class="mono">2020 — 2021</span></li>
+<li class="xp" style="display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 110px; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #111111"><span class="disp" style="font-size: 24px">Freelance</span><span style="font-size: 15px">Diseñadora gráfica</span><span class="mono">2019 — 2022</span></li>
 </ul>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 24px">
